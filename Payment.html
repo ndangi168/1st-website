@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>V_classes | Buy </title>
+    <link rel="stylesheet" href="payment.css">
+</head>
+
+<body>
+    <header>
+        <h1 class="p1">V_classes</h1>
+    </header>
+    <nav>
+        <a href="home.html">Home</a>
+        <a href="course.html">Courses</a>
+        <a href="lectures.html">Lectures</a>
+        <a href="notes.html">Notes</a>
+        <a href="blogs.html">Blogs</a>
+        <a href="Payment.html" style="background-color: black;">Buy</a>
+        <a href="about.html">About</a>
+    </nav>
+    <main>
+        <form action="">
+            <h1>Payment Form</h1>
+            <hr>
+            <fieldset>
+                <legend>Contact Information</legend>
+                <h2>Contact information</h2>
+                <p>First Name: *<input type="text" name="fname" required style="background-color: rgb(227, 240, 237);"></p>
+                <p>Last Name:<input type="text" name="lname" style="background-color: rgb(227, 240, 237);"></p>
+                <pre>
+                <fieldset>
+                    <legend>Gender *</legend>
+                    Male <input type="radio" name="gender" id="male" required>
+                    Female <input type="radio" name="gender" id="female" required>
+                </fieldset>
+            </pre>
+                <p>Address: *<textarea name="address" id="address" cols="30" rows="5" required style="background-color: rgb(227, 240, 237);"></textarea></p>
+                <p>Email: *<input type="email" name="email" id="email" required style="background-color: rgb(227, 240, 237);"></p>
+                <p>Pincode: * <input type="number" name="pincode" id="pincode" required style="background-color: rgb(227, 240, 237);"></p>
+            </fieldset>
+
+            <fieldset>
+                <legend>Payment Information</legend>
+                <p>Card type: *
+                    <select name="card type" id="card type" required style="background-color: rgb(227, 240, 237);">
+                    <option value="">--Select a card type--</option>option>
+                    <option value="Visa">Visa</option>
+                    <option value="Debit card`">Debit card</option>
+                    <option value="Master card">Master card</option>
+                </select>
+                </p>
+                <p>Card Number: * <input type="number" name="card number" id="card number" required style="background-color: rgb(227, 240, 237);"></p>
+                <p>Expiration Date: * <input type="date" name="exp" id="exp" required style="background-color: rgb(227, 240, 237);"></p>
+                <p>CVV: * <input type="password" name="CVV" id="CVV" required style="background-color: rgb(227, 240, 237);"></p>
+            </fieldset>
+            <input type="submit" value="Pay Now">
+            <input type="reset" value="Reset">
+        </form>
+        <hr>
+        <h6>* :This field is required.</h6>
+    </main>
+    <footer>
+        <a href="#">FAQs</a>
+        <a href="#">Contact Us</a>
+        <a href="#">Terms of Use</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">&copy; 2021 | V_classes</a>
+    </footer>
+</body>
+
+</html>
