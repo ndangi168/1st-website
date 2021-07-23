@@ -1,1 +1,1 @@
-This is my first website that I made. Main page of thi website is "home.html".
+This is my first website that I made. Main page of this website is "home.html".
